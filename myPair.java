@@ -1,9 +1,7 @@
-package labs.GenericsLab;
-
-public class Pair<K,V> {
+public class myPair<K,V> {
     private K student;
     private V schedule;
-    public Pair(K x, V y){
+    public myPair(K x, V y){
         student = x;
         schedule = y;
     }
